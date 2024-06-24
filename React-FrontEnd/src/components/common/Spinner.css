@@ -1,0 +1,14 @@
+.loading-spinner {
+   width: 56px;
+   height: 56px;
+   border-radius: 50%;
+   background: conic-gradient(#0000 10%, #474bff);
+   animation: spinner 1s infinite linear;
+ }
+ 
+ @keyframes spinner {
+   to {
+     transform: rotate(1turn);
+   }
+ }
+ 
